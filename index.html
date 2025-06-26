@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Island+Moments&family=M+PLUS+1:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/computer.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header class="header">
+        <a class="logoPlaceHolder"> Glow / AK </a>
+        <nav class="topBarNav links">
+          <a href="#home" class="link">Головна</a>
+          <a href="#aboutme" class="link">Про мене</a>
+          <a href="#reviews" class="link">Відгуки</a>
+          <a href="#footer" class="link">Контакти</a>
+        </nav>
+        <!-- <select name="swap-language" id="swap-language" class="langauge-swap">
+          <option value="ua">
+             <img src="img/uaFlaf.png" alt="" class="ua-flag-image"> UA
+          </option>
+          <option value="en">&#127468; &#127463; EN</option>
+        </select> -->
+<!-- 
+        <div class="themeSwap">
+          <button class="darkTheme">
+            <img src="img/dark.png" alt="" class="dark" />
+          </button>
+          <button class="lightTheme">
+            <img src="img/light.png" alt="" class="light" />
+          </button>
+        </div> -->
+      </header>
+
+      <main class="main">
+        <section class="headerWelcomePage" id="home">
+          <div class="blur"></div>
+          <div class="wrap">
+            <div class="teacherPhotoPlaceHolder">
+              <img src="img/teacher.png" alt="" />
+            </div>
+            <h1 class="welcomingText">
+              Вивчайте англійську онлайн та вдосконалюйте свої навички!
+            </h1>
+            <div class="buttonPlaceHolder">
+              <button id="openModal" class="bookAclass btn">
+                Записатися на урок
+              </button>
+              <a href="#testing"><button class="testing btn">Тестування</button></a>
+            </div>
+          </div>
+        </section>
+        <section class="aboutMe" id="aboutme">
+          <div class="leftSidePlaceHolder">
+            <h2 class="subheaderAboutMe">Про мене</h2>
+            <p class="aboutMeTextModule">
+              Привіт! Я Анастасія Канюк — твій майбутній репетитор з
+              англійської!Маю 5 років досвіду та працювала в Англії, тому знаю,
+              як зробити навчання справді ефективним іцікавим. Проводжу
+              індивідуальні уроки онлайн до рівня В1, де ми не просто вчимо
+              правила, авчимося говорити впевнено. Допоможу позбутись страху
+              спілкування англійською та полюбити мову.Давай зробимо англійську
+              частиною твого життя! +:
+            </p>
+            <div class="buttonPlaceHolder">
+              <a href="#home"><button class="bookAclass btn">
+                Записатися на урок
+              </button></a>
+              <a href="#testing"><button class="testing btn">Тестування</button></a>
+            </div>
+          </div>
+          <div class="rightSidePlaceHolder">
+            <img src="img/AboutME.png" alt="" class="aboutMeImage" />
+          </div>
+        </section>
+        <section class="certificates">
+          <h2 class="certificates-title">Сертифікати</h2>
+          <div class="cont-sect" id="sliders">
+            <section class="slide">
+              <div class="slide__outer">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <div class="slide__container">
+                      <figure class="slide__img-cont">
+                        <img class="slide__img" src="img/crt1.png" alt="" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="slide">
+              <div class="slide__outer">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <div class="slide__container">
+                      <figure class="slide__img-cont">
+                        <img class="slide__img" src="img/crt2.png" alt="" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="slide">
+              <div class="slide__outer">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <div class="slide__container">
+                      <figure class="slide__img-cont">
+                        <img class="slide__img" src="img/crt3.png" alt="" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="slide">
+              <div class="slide__outer">
+                <div class="slide__inner">
+                  <div class="slide__content">
+                    <div class="slide__container">
+                      <figure class="slide__img-cont">
+                        <img class="slide__img" src="img/crt4.png" alt="" />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="overlay-slider">
+              <div class="overlay__content">
+                <p class="overlay__count">0<span class="count">1</span></p>
+                <figure class="overlay__img-cont" style="position: relative">
+                  <img
+                    class="image"
+                    src="img/crt1.png"
+                    style="position: absolute; top: 0; left: 0; width: 100%"
+                  />
+                  <img
+                    class="image"
+                    src="img/crt2.png"
+                    style="position: absolute; top: 0; left: 0; width: 100%"
+                  />
+                  <img
+                    class="image"
+                    src="img/crt3.png"
+                    style="position: absolute; top: 0; left: 0; width: 100%"
+                  />
+                  <img
+                    class="image"
+                    src="img/crt4.png"
+                    style="position: absolute; top: 0; left: 0; width: 100%"
+                  />
+                </figure>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section class="test" id="testing">
+          <h1 class="test-sectionh1">Тест на визначення рівня англійської</h1>
+          <div class="test-section">
+            <div class="test-image">
+              <button class="test-label"><img src="img/bus.png" alt="Big Ben and London Bus" /></button>
+              <div class="arrow">
+                <img src="img/arrow.png" alt="">
+              </div>
+            </div>
+            <div class="levels">
+              <div class="level l1">
+                <h2>A1-A2</h2>
+                <p>A1 - beginner</p>
+                <p>A2 - Pre-Intermediate</p>
+              </div>
+              <div class="level whiteL l2">
+                <h2>B1-B2</h2>
+                <p>B1 - Intermediate</p>
+                <p>B2 - Upper-Intermediate</p>
+              </div>
+              <div class="level l3">
+                <h2>C1-C2</h2>
+                <p>C1 - Advanced</p>
+                <p>C2 - Proficiency</p>
+              </div>
+            </div>
+          </div>
+          <p class="description">
+            Пройди короткий тест, щоб дізнатися свій поточний рівень володіння
+            англійською мовою. Тест охоплює граматику, словниковий запас і
+            розуміння мови.
+          </p>
+        </section>
+
+        <section class="reviews" id="reviews">
+          <h2 class="subheaderReview">Відгуки</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                Мені дуже подобаються ваші уроки з Вікторією, індивідуальний
+                підхід, це головне що дитина повністю вас сприймає, не боїться,
+                готується до занять залюбки. А ще люблю коли є контрольні
+                заняття, і бачу великий результат і дуже вами задоволена
+              </div>
+              <div class="swiper-slide">
+                Thank you for the interesting and clear lessons! I really liked
+                how you explained everything and helped me understand difficult
+                topics. The atmosphere during the lessons was very pleasant,
+                which made learning easy. Your lessons are very helpful and
+                memorable for me. Thank you !
+              </div>
+              <div class="swiper-slide">
+                Хочу щиро подякувати чудовій репетиторці з англійської мови
+                Анастасії, яка займається з моїм сином Артемом! Ми дуже раді, що
+                знайшли саме її -справжнього професіонала своєї справи. Вона не
+                просто навчає, а вміє зацікавити, мотивувати та підтримати.
+                Артем із задоволенням чекає кожного заняття, і його рівень знань
+                значно покращився за короткий час.
+              </div>
+              <div class="swiper-slide">
+                Анастасія дуже гарний репетитор з англійської мови, вона
+                максимально доступно пояснює навіть найскладніший матеріал,
+                розкладаючи його на частинки та подаючи матеріал так, що навіть
+                дорослим стає цікаво. Заняття проходять ефективно та мають
+                результат. Тому, з впевненістю, рекомендую
+              </div>
+              <div class="swiper-slide">
+                Особливо тішить, що з'явилася впевненість у спілкуванні
+                англійською! Завдяки її терплячості, доброзичливості та
+                індивідуальному підходу, син не лише краще вивчає мову, а й
+                полюбив сам процес навчання. Видно, що вона вкладає душу в кожен
+                урок. Щиро рекомендую всім батькам, які шукають для своєї дитини
+                не просто вчителя, а справжнього наставника
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+           <div class="overlayy" id="modalOverlay">
+            <div class="blurforrev"></div>
+        <div class="modall">
+          <h2 class="modal_title">Залишіть відгук</h2>
+          <form id="lessonForm">
+            <label for="">
+              <input
+                class="input"
+                type="text"
+                name="name"
+                placeholder="Ім'я"
+                required
+              />
+            </label>
+            <label for=""
+              ><input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                required
+              />
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="Пошта"
+                required
+              />
+            </label>
+            <textarea
+              class="input"
+              name="comment"
+              placeholder="Коментар"
+            ></textarea>
+            <button id="submit" type="submit">Надіслати</button>
+          </form>
+        </div>
+      </div>
+        </section>
+      </main>
+      <div class="overlay" id="modalOverlay">
+        <div class="modal">
+          <h2>Запишись на безкоштовний пробний урок</h2>
+          <form id="lessonForm">
+            <label for="">
+              <input
+                class="input"
+                type="text"
+                name="name"
+                placeholder="Ім'я"
+                required
+              />
+            </label>
+            <label for=""
+              ><input
+                class="input"
+                type="tel"
+                name="phone"
+                placeholder="Телефон"
+                required
+              />
+              <input
+                class="input"
+                type="email"
+                name="email"
+                placeholder="Пошта"
+                required
+              />
+            </label>
+            <textarea
+              class="input"
+              name="comment"
+              placeholder="Коментар"
+            ></textarea>
+            <label class="check">
+              <input
+                type="checkbox"
+                name="agreement"
+                required
+                class="checkbox"
+              />
+              Погоджуюся з умовами
+            </label>
+            <button id="submit" type="submit">Відправити</button>
+          </form>
+          <button id="closeModal">Закрити</button>
+        </div>
+      </div>
+
+      <div class="faq-container">
+        <h2 class="faq-header">Часті питання</h2>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>1. Як проходять заняття?</span>
+            <button class="faq-toggle">+</button>
+          </div>
+          <div class="faq-answer">
+            Заняття проводяться онлайн через зручну для вас платформу
+            (наприклад, Zoom, Google Meet). Вони включають теоретичну частину,
+            практичні вправи та інтерактивні завдання.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>2. Чи потрібні додаткові матеріали?</span>
+            <button class="faq-toggle">+</button>
+          </div>
+          <div class="faq-answer">
+            Основні навчальні матеріали надаються. За бажанням ви можете
+            використовувати додаткові ресурси за рекомендацією викладача
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>3. Як записатися на урок?</span>
+            <button class="faq-toggle">+</button>
+          </div>
+          <div class="faq-answer">
+            Щоб записатися на урок, будь ласка, заповніть форму зворотного
+            зв'язку внизу сторінки або зв'яжіться зі мною напряму за вказаними
+            контактними даними.
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>4. Чи є знижки для групових занять?</span>
+            <button class="faq-toggle">+</button>
+          </div>
+          <div class="faq-answer">
+            Наразі групові заняття не проводяться. Проте слідкуйте за
+            оновленнями на сайті, можливі зміни в майбутньому.
+          </div>
+        </div>
+      </div>
+      <div class="modal_test">
+        <div class="style_cont">
+          <div class="cont_for_top">
+        <h1>English Level Test</h1>
+        <button class="closed_test">❌</button>
+        </div>
+        <div id="levelsContainer"></div>
+        <div class="result" id="result"></div>
+      </div>
+      </div>
+      <footer class="footer" id="footer">
+    <div class="footer-left">
+      <h2 class="logo">Glovo / ATK</h2>
+      <div class="contact">
+        <img src="img/place.png" alt="" class="loc">
+        <p class="loc ddd">м. Івано-Франківськ</p>
+      </div>
+      <div class="contact">
+        <img src="img/phone.png" alt="" class="cont">
+        <p class="phone ddd">+38 (097) 162 -67-90</p>
+      </div>
+      <div class="contact">
+        <img src="img/email.png " alt="" class="email">
+        <p class="email ddd">englishlessons@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <div class="socials">
+        <img src="img/telegram.png" alt="" class="telegram">
+        <img src="img/instagram.png" alt="" class="instagram">
+        <img src="img/facebook.png" alt="" class="facebook">
+      </div>
+      <p class="copyright">
+        &copy; Школа Комп’ютерної Майстерності
+      </p>
+    </div>
+  </footer>
+    </div>
+
+    <script src="https://assets.codepen.io/16327/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/test_modal.js"></script>
+  </body>
+</html>
